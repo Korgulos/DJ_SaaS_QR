@@ -56,7 +56,15 @@ if DEBUG:
         "localhost"
     ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://djsaasqr-production.up.railway.app"
+]
 
+if DEBUG:
+    CSRF_TRUSTED_ORIGINS = [
+        "127.0.0.1",
+        "localhost"
+]
 # Application definition
 
 INSTALLED_APPS = [
