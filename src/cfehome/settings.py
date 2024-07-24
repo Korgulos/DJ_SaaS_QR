@@ -62,6 +62,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 if DEBUG:
     CSRF_TRUSTED_ORIGINS = [
+        "https://djsaasqr-production.up.railway.app",
         "http://127.0.0.1:8000",
         "http://localhost"
 ]
