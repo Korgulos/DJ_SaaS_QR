@@ -1,0 +1,2 @@
+block_components:
+    nav: "src/templates/nav/navbar.html"
