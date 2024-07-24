@@ -62,8 +62,8 @@ CSRF_TRUSTED_ORIGINS = [
 
 if DEBUG:
     CSRF_TRUSTED_ORIGINS = [
-        "127.0.0.1",
-        "localhost"
+        "http://127.0.0.1:8000",
+        "http://localhost"
 ]
 # Application definition
 
